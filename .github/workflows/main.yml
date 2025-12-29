@@ -5,6 +5,9 @@ on: pull_request_target
 
 jobs:
   featuer:
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
 
     steps:
